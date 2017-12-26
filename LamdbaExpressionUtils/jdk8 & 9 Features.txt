@@ -1,0 +1,108 @@
+URL : https://www.developer.com/java/start-using-java-lambda-expressions.html
+
+JDK 8 Features :::
+i)lambda expressions, 
+ii) functional interface, 
+iii) stream API, 
+iv) default methods 
+v) new Date and Time API.
+
+
+NOTE: Since biggest impact of Java 8 release will be on Java Collections framework its best to try examples of Stream API and lambda expression to extract, filter and sort data from Lists and Collections.
+
+cryptic impression of lambda expressions and method reference, you will love it once you do couple of examples of extracting and filtering data from Collection classes. So let's start this wonderful journey of learning lambda expressions in Java 8 by simple examples.
+
+
+i)Lambda Expression ()
+ii) Function Interfaces
+iii)Default Methods in interfaces
+iv)Static Methods in interfaces
+v)Predicate 
+vi)Function
+vii)COnsumer 
+
+  Above 5,6,7 Pre Defined Functions interfaces
+viii)Method refrence & construtor reference by Double colon(::) operator
+
+ix)Stream API :Bulk Operation of collections
+x)Date and Time Stamp
+  (joda.org)
+
+  
+  
+  Java lambda expressions are new in Java 8. Java lambda expressions are Java's first step into functional programming.
+   A Java lambda expression is thus a function which can be created without belonging to any class.
+   A lambda expression can be passed around as if it was an object and executed on demand.
+  
+  A lambda expression is an anonymous function that you can use to create delegates or expression tree types. 
+  By using lambda expressions, you can write local functions that can be passed as arguments or returned as the value of function calls.Mar 3, 2017
+  
+  ===================================================================================================
+ Java Lambda expressions are a new and important feature included in Java SE 8. A lambda expression provides a way to represent one method interface using an expression.
+ A lambda expression is like a method, it provides a list of formal parameters and a body (which can be an expression or a block of code) expressed in terms of those parameters.
+
+Lambda expressions also improve the Collection libraries. Java SE 8 added two packages related to bulk data operations for Collections, the java.util.function package, and the java.util.stream. 
+A stream is like an iterator, but with a lot of extra functionality. Taken together, 
+lambda expressions and streams are the biggest change to Java programming since the generics and annotations were added to the language. 
+In this article, we will explore the power of lambda expressions and streams, from simple to complex examples.
+
+
+The basic syntax of a lambda is either:
+
+(parameters) ->expression           
+    (OR)
+(parameters) ->{ statements; }
+
+The following are examples of Java lambda expressions:
+
+
+   () -> 5                           		// takes no value and returns 5
+2.  x -> 2 * x            					// takes a number and returns the result of doubling it
+3.  (x, y) -> x – y                     		// takes two numbers and returns their difference
+4.  (int x, int y) -> x + y      				// takes two integers and returns their sum
+5.  (String s) -> System.out.print(s) 		// takes a string and prints it to console without returning anything
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
