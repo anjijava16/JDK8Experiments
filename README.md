@@ -18,13 +18,14 @@
 4. SafeVarargs Annotation Enhancements 
 5. Factory Methods for Creating unmodifiable Collections
 6. Stream API Enhancements 
-#  7. The Java Shell(RPEL)
+7. The Java Shell(RPEL)
 8. The Java Platform Module System(JPMS)
 9. JLINK(JAVA LINKER)
 10. Process API Updates
 11. HTTP/2 Client
 
 # JDK 10 Features :
+
 # i) 1. JEP 286: Local Variable Type Inference
 #  https://aboullaite.me/10-new-features-in-java-10/
 # https://jaxenter.com/jdk-10-features-to-expect-139967.html
